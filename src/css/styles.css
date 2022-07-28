@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    background: rgb(214,255,216);
+    background: -moz-linear-gradient(90deg, rgba(214,255,216,1) 0%, rgba(249,255,249,1) 65%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(214,255,216,1) 0%, rgba(249,255,249,1) 65%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(90deg, rgba(214,255,216,1) 0%, rgba(249,255,249,1) 65%, rgba(255,255,255,1) 100%);
+}
+
+.container {
+    position: relative;
+}
+.HpNoteTop {
+    position: fixed;
+    margin-top: 70px;
+    width: 100vw;
+    border-bottom: 2px solid lightblue;
+    left: 0;
+    top: 0;
+}
+
+.HpNoteSide {
+    position: fixed;
+    left: 0;
+    top: 0;
+    margin-left: 100px;
+    height: 100vh;
+    border-left: 2px solid lightblue;
+}
+
+.HpNoteLine {
+    position: absolute;
+    margin-top: 85px;
+    width: 100vw;
+    border-bottom: 1px solid lightgrey;
+}

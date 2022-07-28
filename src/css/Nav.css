@@ -1,0 +1,72 @@
+.navBar {
+    color: black;
+    margin: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+    font-family: "arial";
+    position: relative;
+}
+
+.leftBox {
+    display: flex;
+    height: 45px;
+    background-color: ghostwhite;
+    border-radius: 10px;
+    box-shadow: -10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.rightBox {
+    height: 45px;
+    background-color: ghostwhite;
+    border-radius: 10px;
+    padding: 0 10px;
+    box-shadow: -10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.boxItem {
+    padding: 10px 20px;
+    font-size: 1.5em;
+    z-index: 1000;
+}
+.logoBox {
+    padding: 10px 0px;
+}
+
+.logo {
+    height: 60px;
+    transform: translateY(-25px);
+}
+
+.selectBox {
+    position: absolute;
+    height: 60px;
+    width: 90px;
+    border: 5px solid rgb(59, 59, 59);
+    border-radius: 20px;
+    transform: translate(60px, -10px);
+    background-color: ghostwhite;
+}
+
+.selectBoxShadow {
+    position: absolute;
+    height: 60px;
+    width: 90px;
+    border: 5px solid rgb(59, 59, 59);
+    border-radius: 20px;
+    transform: translate(60px, -10px);
+    background-color: ghostwhite;
+    box-shadow: -10px 10px rgba(0, 0, 0, 0.5);
+    z-index: -1000;
+}
+
+.logoPlus {
+    height: 35px;
+    margin: 0;
+    transform: translateY(-5px);
+    margin: 0 10px;
+}
+
+.accountIco {
+    height: 35px;
+    margin-top: 5px;
+}
